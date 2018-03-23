@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,19 +20,18 @@
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
-
 <header>
     <img src="icon.png">
     <ul>
         <li>
-            <a href="#link1">Link 1</a>
-            <a href="#link2">Link 2</a>
-            <a href="#link3">Link 3</a>
+            <a href="#main-text">Main Text</a>
+            <a href="#cards">Cards</a>
+            <a href="#testimonials">Testimonials</a>
         </li>
     </ul>
 </header>
 
-<section class="hero-section">
+<section class="hero-section" id="hero-section">
     <div class="hero-text">
         <h1>Team X</h1>
         <h3>Raising the bar for perfection</h3>
@@ -39,22 +39,18 @@
 </section>
 
 <main>
-    <section class="main-text">
+    <section class="main-text" id="main-text">
         <h1>Esoteric Wisdom</h1>
-        <p> <strong>One </strong> must absorb the visitor in order to study the sinner of ancient definition.
-            If you disturb or disappear with a great issue, purpose yearns you.</p>
+        <p> <strong>One </strong> must absorb the visitor in order to study the sinner of ancient definition. If you disturb or disappear with a great issue, purpose yearns you.</p>
 
         <h1>Lorem Ipsum</h1>
-        <p>Turpiss sunt rumors de salvus ratione. Heu, audax adgium!
-            Cur elevatus mori? Cur cobaltum ortum? <strong> Manducare aegre ducunt ad domesticus hydra.</strong></p>
+        <p>Turpiss sunt rumors de salvus ratione. Heu, audax adgium! Cur elevatus mori? Cur cobaltum ortum? <strong> Manducare aegre ducunt ad domesticus hydra.</strong></p>
 
         <h1>Science Fiction</h1>
-        <p>All of those dosis fight real, lunar astronauts. <strong> Processors reproduce </strong> on assimilation at
-            starfleet headquarters! Go wihtout life, and we won’t lower a processor.</p>
+        <p>All of those dosis fight real, lunar astronauts. <strong> Processors reproduce </strong> on assimilation at starfleet headquarters! Go wihtout life, and we won’t lower a processor.</p>
     </section>
 
-    <section class="cards">
-
+    <section class="cards" id="cards">
         <div class="card-header">Gallus Advena</div>
         <div class="card-main">
             <i class="material-icons">hot_tub</i>
@@ -74,7 +70,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <div class="testimonial">
             <img src="img/testimonial1.jpg" alt="Avatar" style="width:90px">
             <p><span>Sonya Alba</span> CEO at Mighty Schools.</p>
@@ -93,9 +89,27 @@
     </section>
 </main>
 
+<footer class="footer">
+    <h5>Footer Content</h5>
+    <p>Raptus, altus brodiums nunquam visum de festus, emeritis zelus. Est peritus abactus, cesaris.</p>
+    <h5>Links</h5>
+    <ul>
+        <li><a href="#!">Link 1</a></li>
+        <li><a href="#!">Link 2</a></li>
+        <li><a href="#!">Link 3</a></li>
+        <li><a href="#!">Link 4</a></li>
+    </ul>
+    <div class="footer-copyright">
+        © 2018 Team X
+        <a href="https://github.com/programacao-web/tecnologias-de-frontend-x">Github</a>
+    </div>
+</footer>
+
 <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
+</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -103,9 +117,15 @@
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
-    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-    ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    window.ga = function() {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
+
 </html>
