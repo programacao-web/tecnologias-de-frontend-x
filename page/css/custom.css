@@ -1,0 +1,9 @@
+ul,
+.cards {
+    list-style-type: none;
+}
+
+.testimonial:not(:first-child){
+    display: none;
+}
+
