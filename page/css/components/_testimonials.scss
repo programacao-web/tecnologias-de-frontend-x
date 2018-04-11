@@ -1,0 +1,11 @@
+
+.testimonial:not(:first-child){
+    display: none;
+}
+
+.testimonials {
+    .testimonial {
+        width: 10px;
+    }
+}
+
