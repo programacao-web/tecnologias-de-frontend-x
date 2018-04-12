@@ -1,6 +1,23 @@
+// Settings
 @import 'settings/_global.scss';
+
+// Tools
 @import 'tools/_breakpoints.scss';
+
+// Generic
 @import 'generic/_normalize.scss';
+
+// Elements
+@import 'elements/_html.scss';
+
+// Objects
+
+// Components
+@import 'components/_logo.scss';
+@import 'components/_navbar.scss';
+@import 'components/_hero.scss';
+@import 'components/maintext';
+@import 'components/_cards.scss';
 @import 'components/_testimonials.scss';
-@import 'elements/oldermain.css';
-@import 'elements/custom.scss';
+
+// Utilities
